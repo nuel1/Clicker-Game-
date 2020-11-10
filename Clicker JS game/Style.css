@@ -1,0 +1,87 @@
+#CountingBlock {
+    text-align: center;
+}
+
+#ErrorMessage {
+    width: 50%;
+    position: fixed;
+    top: 30%;
+    height: 40%;
+    left: 25%;
+    border-radius: 40%;
+    visibility: hidden;
+}
+
+#container {
+    margin: 0 10% 0 10%;
+    background-image: url(background.jpg);
+    border: 5px ;
+    border-style: solid;
+}
+
+#SAM, #RICK, #MAX, #SAM_2, #SAM_3 {
+    height: 50px;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#GEM {
+    position: absolute;
+    height: 10%;
+    width: auto;
+    top: 8%;
+    left: 37.5%;
+}#GEM2 {
+    position: absolute;
+    height: 10%;
+    width: auto;
+    top: 8%;
+    left: 52.5%;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
+    text-decoration: none;
+    margin-left: 3%;
+}
+
+button {
+    border-radius: 10px;
+    background-color: lightblue;
+    color: black;
+}
+
+#SamUpgrade2 {
+    visibility: hidden;
+}
+
+#SamUpgrade3 {
+    visibility: hidden;
+}
+
+#UpgradeButtonSam1 {
+    visibility: visible;
+}
+
+#DRAGON {
+    width: 60%;
+    margin: 0 20% 0 20%;
+}
+
+#DragonFight {
+    text-align: center;
+    color: lightcoral;
+}
+
+#damage {
+    color: mediumblue;
+}
+
