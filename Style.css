@@ -46,6 +46,8 @@
 
 h1{
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #GEM {
@@ -65,19 +67,11 @@ h1{
 ul {
     display: inline-block;
 }
-
-li {
+a{
     display: inline-block;
-    width: 30%;
     text-decoration: none;
-    margin-left: 3%;
 }
 
-button {
-    border-radius: 10px;
-    background-color: lightblue;
-    color: black;
-}
 
 #SamUpgrade2 {
     visibility: hidden;
@@ -105,3 +99,99 @@ button {
     color: mediumblue;
 }
 
+
+/* ----------------------------- */
+.group_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+  
+
+}
+
+li {
+    flex:0 1 30%;
+    visibility: visible !important;
+    background: rgb(1, 182, 128);
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+li p #damage{
+    color: rgb(243, 227, 0);
+    
+}
+button {
+    padding: 13px 16px;
+    border-radius: 5px;
+    color:#fff;
+    background:  rgba(1, 68, 48, 0.604);
+    border:transparent;
+    margin: 10px;
+}
+
+
+#container{
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(2, 48, 30);
+    border:none;
+}
+
+.page_main_header{
+    color:#fff;
+    font-size: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    letter-spacing: .23em;
+}
+
+.page_main_header::after{
+    content:"";
+    display: block;
+    background: url(GEM.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    max-width:180px;
+    object-fit: contain;
+    height:80px;
+    transform: translateY(10px);
+}
+
+#CountingBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#CountingBlock p{
+    color:#ffffff;
+    font-size: 1em;
+    font-weight: 600;
+    font-size: 1em;
+    border-bottom: 3px solid #f15555;
+    padding-bottom: 7px;
+}
+
+.worker_header_count{
+    color:#fff;
+    font-size: 3em;
+}
+
+.header{
+    background: rgb(3, 119, 69);
+}
+
+.page_label{
+    color:yellow;
+}

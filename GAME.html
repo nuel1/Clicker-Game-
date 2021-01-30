@@ -13,18 +13,20 @@
 </head>
 
 <body>
-    <div id="container">
-        <div id="CountingBlock">
-            <h1>GEMS: <a id="count"> 0</a></h1>
-            <p>Gems / Sec: <a id="GemsPerSecond">0</a></p>
-            <h1>Your Workers:<a id="WorkerCount"> 0</a></h1>
-            <img src="GEM.png" id="GEM2">
-            <button onclick="Active1()">1x GEM</button>
+    <div id="container" class="page_wrapper">
+        <div class="header">
+            <div id="CountingBlock">
+                <h1 class="page_main_header">GEMS: <a id="count"> 0</a></h1>
+                <p>Gems / Sec: <a id="GemsPerSecond">0</a></p>
+                <h1 class="worker_header_count">Your Workers:<a id="WorkerCount"> 0</a></h1>
+                <!-- <img src="GEM.png" id="GEM2"> -->
+                <button onclick="Active1()">1x GEM</button>
+            </div>
+            <hr>
+            <h1 class="page_label">Workers</h1>
+            <hr>
         </div>
-        <hr>
-        <h1>Workers</h1>
-        <hr>
-        <div id="SamGroup">
+        <div id="SamGroup" class="group_box">
             <li id="SamUpgrade1">
                 <p>Worker Sam: <a id="WorkerSam"> 0</a></p><a><img src="SAM.png" id="SAM"></a>
                 <p>Cost: (10 GEMS) <a id="damage"> Damage: 10</a></p>
@@ -50,7 +52,7 @@
             </li>
         </div>
         <hr>
-        <div id="RickGroup">
+        <div id="RickGroup" class="group_box">
             <li id="SamUpgrade1">
                 <p>Worker Rick: <a id="WorkerRick">0</a></p><a><img src="RICK.png" id="RICK"></a>
                 <p>Cost: (50 GEMS) <a id="damage"> Damage: 50</a></p>
@@ -74,7 +76,7 @@
             </li>
         </div>
         <hr>
-        <div id="MaxGroup">
+        <div id="MaxGroup" class="group_box">
             <li id="SamUpgrade1">
                 <p>Worker Max: <a id="WorkerMax">0</a></p><a><img src="MAX.png" id="MAX"></a>
                 <p>Cost: (1000 GEMS) <a id="damage"> Damage: 1 000</a></p>
